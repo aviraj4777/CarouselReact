@@ -1,12 +1,12 @@
 import './App.css'
-
+import ImageCarousel from './components/ImageCarousel'
 function App() {
 
   return (
     <>
-      <h1 className='text-xl bg-amber-500'>Hello World</h1>
+      <ImageCarousel />
     </>
   )
 }
 
-export default App
+export default App;
